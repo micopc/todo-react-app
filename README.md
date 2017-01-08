@@ -32,3 +32,7 @@ Start development server:
 Build for production:
 
 `npm run build`
+
+## LICENSE
+
+MIT
