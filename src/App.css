@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  padding: 30px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  /*height: 150px;*/
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.list-container {
+  padding: 20px 0;
+}
+
+.completed {
+  opacity: 0.5;
+  text-decoration: line-through!important;
+}
+
+.todo-container {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.todo-container .text-left {
+  text-align: left!important;
+}
+
+.todo-container .list-group-item {
+  flex: 1;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
